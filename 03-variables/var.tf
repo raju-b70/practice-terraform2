@@ -27,6 +27,10 @@ output "y_list" {
   value = var.y_list
 }
 
+output "y_2" {
+  value = var.y_list[2]
+}
+
 output "z" {
   value = var.z_map
 }
