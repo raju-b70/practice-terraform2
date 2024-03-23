@@ -39,3 +39,10 @@ output "z_y" {
 output "z" {
   value = var.z_map
 }
+
+#we can declare empty variable,but can be sent from a file those variables are called as tfvars
+variable "env" {}
+
+output "env" {
+  value = var.env
+}
