@@ -1,6 +1,6 @@
 module "demo1" {
   source = "./demo"
 }
-module "test2" {
+module "demo2" {
   source = "./demo"
 }
