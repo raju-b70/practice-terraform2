@@ -27,9 +27,14 @@ output "y_list" {
   value = var.y_list
 }
 
-output "y_2" {
-  value = var.y_list[2]
+output "y_1" {
+  value = var.y_list[1]
 }
+
+output "z_x" {
+  value = var.z_map["x"]
+}
+
 
 output "z" {
   value = var.z_map
