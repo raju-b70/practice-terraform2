@@ -6,7 +6,15 @@ variable "x" {
 #Declare the variable without value
 #variable "y" {}
 
+variable "y_list" {
+  default = [12,13,14]
+}
+
 #print the output
 output "x" {
-  value = "var.x"
+  value = var.x
+}
+
+output "y_list" {
+  value = var.y_list
 }
