@@ -11,8 +11,8 @@ variable "y_list" {
 }
 
 variable "z_map" {
-  x = 10
-  y = 20
+  m = 10
+  n = 20
 }
 
 #print the output
