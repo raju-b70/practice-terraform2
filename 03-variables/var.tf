@@ -11,8 +11,11 @@ variable "y_list" {
 }
 
 variable "z_map" {
-  m = 10
-  n = 20
+  default = {
+    x = 10
+    y = 20
+  }
+
 }
 
 #print the output
