@@ -10,6 +10,11 @@ variable "y_list" {
   default = [12,13,14]
 }
 
+variable "z_map" {
+  x = 10,
+  y = 20
+}
+
 #print the output
 output "x" {
   value = var.x
@@ -17,4 +22,8 @@ output "x" {
 
 output "y_list" {
   value = var.y_list
+}
+
+output "z" {
+  value = var.z_map
 }
