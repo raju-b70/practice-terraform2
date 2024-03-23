@@ -11,7 +11,7 @@ variable "y_list" {
 }
 
 variable "z_map" {
-  x = 10,
+  x = 10
   y = 20
 }
 
