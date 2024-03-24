@@ -1,3 +1,3 @@
 bucket = "raj-t9-state"
-key    = "test1/dev/state"
+key    = "testing/prod/state"
 region = "us-east-1"
