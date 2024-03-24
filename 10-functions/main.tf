@@ -1,5 +1,5 @@
 variable "test" {
-  default = "hello"
+  default = "HELLO"
 }
 output "test" {
   value = lower(var.test)
