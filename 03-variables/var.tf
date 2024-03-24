@@ -53,8 +53,10 @@ output "common" {
   value = var.common
 }
 
-
-
+#data in terraform is three typs
+#string- need quoting only double quotes terraform doesnt support single quotes
+#number- no quotes
+#boolean- no quotes
 
 
 
