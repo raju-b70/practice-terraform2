@@ -1,6 +1,6 @@
 resource "aws_instance" "frontend" {
   ami           = var.ami
-  instance_type = each.value["instance_types"]
+  instance_type = each.value["instance_type"]
   for_each = var.instance_types
   vpc_security_group_ids = var.security_groups
   tags = {
@@ -17,6 +17,7 @@ variable "instance_type" {
 variable "security_groups" {
   default = ["sg-09998e9d2f260cf52"]
 }
+
 variable "instance_types" {
   default = {
 
