@@ -6,7 +6,7 @@ variable "x" {
 #Declare the variable without value
 #variable "y" {}
 
-variable "y_list" {
+variable "y_list"  {
   default = [12,13,14]
 }
 
