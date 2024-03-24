@@ -12,6 +12,6 @@ variable "fruit-variety" {
     orange = 2
     banana = 3
     pulp = 8
-    apple = 7
+    apple = 7 
   }
 }
